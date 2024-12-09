@@ -25,7 +25,7 @@ public class GameManager : MonoBehaviour
         GameObject newlyCreated =
             Object.Instantiate(myPrefab);
         newlyCreated.transform.position =
-            new Vector3(Random.Range(-10, 10), Random.Range(-10, 10), Random.Range(7, 17));
+            new Vector3(Random.Range(-10, 10), Random.Range(1, 16), Random.Range(20, 30));
         newlyCreated.transform.LookAt(Camera.main.transform);
     }
 
