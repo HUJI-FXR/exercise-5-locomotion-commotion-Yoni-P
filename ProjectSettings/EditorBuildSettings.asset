@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Samples/XR Interaction Toolkit/2.5.4/Starter Assets/DemoScene.unity
     guid: 319dafa5c80f29f428dc1e0d03f04177
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/BallsGame.unity
     guid: 673d26896ff5e2f4198a953a8eb0d4b9
+  - enabled: 1
+    path: Assets/Scenes/Game Scene.unity
+    guid: 71037ce8589683e49b1f0abe044eb1a5
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 9bac82b0e41ec7b499a47057f0d1bf9f,
       type: 2}
